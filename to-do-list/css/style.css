@@ -1,0 +1,101 @@
+input[type=text] {
+    font-family: Comic Sans MS, Monotype Corsiva;
+     border: 2px solid;
+     border-radius: 5px;
+     margin: 20px 0px 20px 0px;
+     width: 30%;
+     height: 25px;
+     padding: 0px 10px;
+   }
+
+   .grow { 
+   transition: all .2s ease-in-out; 
+   }
+   
+   .grow:hover { 
+   transform: scale(1.1); 
+   }
+   
+   button {
+     border: 2px solid;
+     border-radius: 5px;
+     background-color: yellow;
+     font-weight: bold;
+     font-size: 15px;
+     margin: 10px 10px 0px 10px;
+     box-shadow:  1px 3px 1px #000000;
+   }
+   
+   button:hover {   
+     background-color: white;
+     color: black;
+   }
+   
+   #firstDiv {
+     text-align: center;
+     margin: 100px 500px 100px 500px;
+     padding: 125px 0px 125px 0px;
+     
+     border-radius: 10px;
+     box-shadow:  15px 15px 1px #000000;
+     background-color: white;
+   }
+   
+   body {
+      font-family: Comic Sans MS, Monotype Corsiva;
+      background-image: linear-gradient(to right, rgba(255,255,255,.5), rgb(60, 60, 60,.8));
+   }
+   
+   #div-for-list {
+     display: none;
+     margin: 100px 500px 100px 500px;
+     padding: 20px 0px 20px 0px;
+     border-radius: 10px;
+     box-shadow:  15px 15px 1px #000000;
+     background-color: white;
+   }
+   
+   li {
+     overflow-wrap: break-word; 
+     margin: 20px 50px 20px 50px;
+   }
+   
+   @media screen and (max-width: 450px) {
+     body {
+     font-family: Comic Sans MS, Monotype Corsiva;
+     background-image: linear-gradient(to right, rgba(200,200,200,.5), rgb(60, 60, 60,.8));
+   }
+
+     #firstDiv {
+     text-align: center;
+     margin: 50px 35px 50px 35px;
+     padding: 80px 0px 80px 0px;
+     border-radius: 10px;
+     box-shadow:  15px 15px 1px #000000;
+     background-color: white;
+   }
+
+     #div-for-list {
+     display: none;
+     margin: 50px 35px 50px 35px;
+     padding: 20px 0px 60px 0px;
+     border-radius: 10px;
+     box-shadow:  15px 15px 1px #000000;
+     background-color: white;
+   }
+
+     input[type=text] {
+     font-family: Comic Sans MS, Monotype Corsiva;
+     border: 2px solid;
+     border-radius: 5px;
+     margin: 20px 0px 20px 0px;
+     width: 50%;
+     height: 25px;
+     padding: 0px 10px;
+   }
+   
+     li {
+     overflow-wrap: break-word; 
+     margin: 10px 10px 10px 10px;
+   }
+   }
